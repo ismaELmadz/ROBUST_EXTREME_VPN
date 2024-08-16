@@ -5,13 +5,13 @@
 ## run command: ./globe-civ3.sh l
 
 ## Your DNSTT Nameserver & your Domain `A` Record
-NS='ns.carrot.freenet-tech.cloud'
-A='carrot.freenet-tech.cloud'
+NS='dns.ph3d51.public-vpn.com'
+A='ph3d51.public-vpn.com'
 ## Repeat dig cmd loop time (seconds) (positive interger only)
 LOOP_DELAY=5
 
 ## Add your DNS here
-declare -a HOSTS=( '9.9.9.9' '149.112.112.112' '208.67.222.222' '208.67.220.220' '8.8.8.8' '8.8.4.4' '185.228.168.168' '176.103.130.130' '176.103.130.131' '84.200.69.80' '84.200.70.40' )
+declare -a HOSTS=( 'dns.ph3d51.public-vpn.com' '124.6.181.167' '208.67.222.222' '208.67.220.220' '8.8.8.8' '8.8.4.4' '185.228.168.168' '176.103.130.130' '176.103.130.131' '84.200.69.80' '84.200.70.40' )
 
 ## Linux' dig command executable filepath
 ## Select value: "CUSTOM|C" or "DEFAULT|D"
