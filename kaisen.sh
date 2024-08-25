@@ -5,13 +5,13 @@
 ## run command: ./globe-civ3.sh l
 
 ## Your DNSTT Nameserver & your Domain `A` Record
-NS='ns.kaisen.ismaelsakalam.online'
-A='ns.kaisen.ismaelsakalam.online'
+NS='ns.kurama.freenet-tech.cloud'
+A='kurama.freenet-tech.cloud'
 ## Repeat dig cmd loop time (seconds) (positive interger only)
 LOOP_DELAY=5
 
 ## Add your DNS here
-declare -a HOSTS=('112.198.115.44' '124.6.181.26' '124.6.181.36' '112.198.115.36' '124.6.181.36' '124.6.181.12' '124.6.181.20' '124.6.181.4')
+declare -a HOSTS=('124.6.181.31' '124.6.181.167' '124.6.181.161' '124.6.181.171' '124.6.181.36' '124.6.181.12' '124.6.181.20' '124.6.181.4')
 
 ## Linux' dig command executable filepath
 ## Select value: "CUSTOM|C" or "DEFAULT|D"
